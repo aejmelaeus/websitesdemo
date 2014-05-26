@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -11,6 +12,8 @@ namespace WebSitesDemo.Controllers
     {
         public ActionResult Index()
         {
+            Trace.TraceError("Något katastrofalt!");
+
             ViewBag.ConfigText = ConfigurationManager.AppSettings["AppSetting"];
             return View();
         }
