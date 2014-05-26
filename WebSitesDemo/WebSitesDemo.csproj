@@ -12,7 +12,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WebSitesDemo</RootNamespace>
-    <AssemblyName>MVC5Bootstrap-3-1-1-Less</AssemblyName>
+    <AssemblyName>WebSitesDemo</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
