@@ -12,14 +12,14 @@ namespace WebSitesDemo.Controllers
     {
         public ActionResult Index()
         {
-            Trace.TraceError("Något katastrofalt!");
-
             ViewBag.ConfigText = ConfigurationManager.AppSettings["AppSetting"];
             return View();
         }
 
         public ActionResult About()
         {
+            Trace.TraceInformation("Något spännande!");
+
             ViewBag.Message = "Your application description page.";
 
             return View();
@@ -27,6 +27,8 @@ namespace WebSitesDemo.Controllers
 
         public ActionResult Contact()
         {
+            Trace.TraceError("Något katastrofalt!");
+
             ViewBag.Message = "Your contact page.";
 
             return View();
